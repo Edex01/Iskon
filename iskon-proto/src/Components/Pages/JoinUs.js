@@ -82,6 +82,22 @@ class JoinUs extends Component {
             </div>
           </div>
 
+
+          <h1> Answer few of our questions before moving On!!</h1>
+
+          <hr/>
+
+    <h2> Do you think you are trying to overcome it?</h2>
+
+
+    <div className="col-25">
+        <input type="radio" id="yes" name="yes" value="yes"/>
+        <label for="vehicle1"> YES, I'm!</label><br/>
+        <input type="radio" id="no" name="no" value="no"/>
+        <label for="No">No, I can't</label><br/>
+  
+    </div>
+       
           {/* SUBMIT BUTTON */}
 
           <div className="row">

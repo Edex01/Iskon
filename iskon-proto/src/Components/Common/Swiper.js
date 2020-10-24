@@ -1,59 +1,53 @@
-import React, { Component } from "react";
-import "./Swiper.css";
+import React, { Component } from 'react'  
+import "slick-carousel/slick/slick.css";  
+import "slick-carousel/slick/slick-theme.css";  
+import Slider from "react-slick";  
+import './slickdemo.css';  
+import Happy from "../Images/Happy.jpeg";
+import Hppy2 from "../Images/Hppy2.jpeg";
 
-class Swiper extends Component {
-
-    render() {
-
-        var mySwiper = new Swiper('.swiper-container', {
-            // Optional parameters
-            direction: 'vertical',
-            loop: true,
-          
-            // If we need pagination
-            pagination: {
-              el: '.swiper-pagination',
-            },
-          
-            // Navigation arrows
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-          
-            // And if we need scrollbar
-            scrollbar: {
-              el: '.swiper-scrollbar',
-            },
-          })
-
-
-        return (
-
-            <div class="swiper-container">
-                {/* Additional required wrapper */}
-
-                <div class="swiper-wrapper">
-                    {/* <!-- Slides -->  */}
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-        ...
-    </div>
-                {/* <!-- If we need pagination --> */}
-                <div class="swiper-pagination"></div>
-
-                {/* <!-- If we need navigation buttons --> */}
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                {/* <!-- If we need scrollbar --> */}
-                <div class="swiper-scrollbar"></div>
-            </div>
-        )
-
-    }
-
-}
-
-export default Swiper;
+export class SlickDemo extends Component {  
+    render() {  
+        var settings = {  
+          dots: true,  
+          infinite: true,  
+          speed: 500,  
+          centerMode: true,  
+          slidesToShow: 1,  
+          slidesToScroll: 1  
+          };  
+          return (  
+            <div>  
+            <div class='container' >        
+            <div className="row title" style={{marginBottom: "20px"}} >        
+            <div class="col-sm-12 btn btn-info">        
+            Feel Tranquality !
+            </div>        
+            </div>    
+            </div>  
+            <Slider {...settings} >  
+              <div className="wdt">  
+              <img  className="img" src= {Happy} className="img"/>  
+              </div>  
+              <div className="wdt">  
+              <img style={{"height":"40px"}}   src= {Hppy2} className="img"/>  
+              </div>  
+              <div className="wdt">  
+              <img  className="img" src= {'assets/w2.jpg'} className="img"/>  
+              </div>  
+              <div className="wdt">  
+              <img  className="img" src= {'assets/w2.jpg'} className="img"/>  
+              </div >  
+              <div className="wdt">  
+              <img  className="img" src= {'assets/w2.jpg'} className="img"/>  
+              </div>  
+              <div className="wdt">  
+              <img  className="img" src= {'assets/w2.jpg'} className="img"/>  
+              </div>  
+            </Slider>  
+            </div>  
+          );  
+        }  
+      }  
+  
+export default SlickDemo  
