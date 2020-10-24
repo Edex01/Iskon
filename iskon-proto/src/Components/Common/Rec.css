@@ -1,0 +1,28 @@
+#Rec{
+
+    float: left;
+  }
+  
+  img {
+      border-radius: 50%;
+      margin: 30px;
+    }
+  
+    #Rec #Book {
+      margin: 20px;
+      border: 2px solid red;
+      border-radius: 5px;
+  }
+  
+  h4{
+  
+    float: right;
+    padding: 30px;
+  
+  }
+  
+  h6{
+  
+    float: right;
+    padding: 40px;
+  }

@@ -1,6 +1,7 @@
 import React ,{Component} from 'react';
 import Swiper from '../Common/Swiper.js';
 import Contacts from '../Common/Psychiatrists.js';
+import Rec from '../Common/Rec.js';
 
 class Home extends Component {
 
@@ -10,10 +11,13 @@ class Home extends Component {
                 <Swiper 
                   
                 />
-
+                <br/>
+                <br/>
                 <Contacts>
 
                 </Contacts>
+
+                <Rec></Rec>
 
             </div> 
         );

@@ -1,12 +1,19 @@
-.swiper-container {
-    width: 600px;
-    height: 300px;
-}
 
 .wdt{  
     width: 37%  !important;  
 }  
+
+
 .img  
 {  
     height: 300px !important;  
 }  
+
+.img {
+    height: 450px !important;
+}
+
+.slick-slide img {
+    display: block;
+    width: 250%;
+}

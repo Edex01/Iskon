@@ -3,8 +3,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";  
 import Slider from "react-slick";  
 import './slickdemo.css';  
-import Happy from "../Images/Happy.jpeg";
-import Hppy2 from "../Images/Hppy2.jpeg";
+
+import new1  from "./new1.jpg";
+import new2  from "./new2.jpg";
 
 export class SlickDemo extends Component {  
     render() {  
@@ -18,19 +19,20 @@ export class SlickDemo extends Component {
           };  
           return (  
             <div>  
-            <div class='container' >        
+            {/* <div class='container' >        
             <div className="row title" style={{marginBottom: "20px"}} >        
             <div class="col-sm-12 btn btn-info">        
             Feel Tranquality !
             </div>        
             </div>    
-            </div>  
+            </div>   */}
             <Slider {...settings} >  
               <div className="wdt">  
-              <img  className="img" src= {Happy} className="img"/>  
+              <img  className="img" src= {new1} className="img"/>  
+              
               </div>  
               <div className="wdt">  
-              <img style={{"height":"40px"}}   src= {Hppy2} className="img"/>  
+              <img style={{"height":"40px"}}   src= {new2} className="img"/>  
               </div>  
               <div className="wdt">  
               <img  className="img" src= {'assets/w2.jpg'} className="img"/>  

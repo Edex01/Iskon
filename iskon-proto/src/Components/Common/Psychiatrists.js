@@ -14,7 +14,7 @@ class Contacts extends Component {
             <div>
                 <div id ="Psychiatrists">
 
-                    <h1>Psychiatrists Near You</h1>
+                    <h1>PSYCHIATRIST FOR YOU!</h1>
                     
                     <div id ="contact">
                         <img src={abc} alt="Avatar" width="150" height="150"/>
