@@ -1,9 +1,33 @@
 import React, { Component } from "react";
+import "./Swiper.css";
 
-class Swipper extends Component {
-
+class Swiper extends Component {
 
     render() {
+
+        var mySwiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: 'vertical',
+            loop: true,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+            // And if we need scrollbar
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+          })
+
+
         return (
 
             <div class="swiper-container">
@@ -32,4 +56,4 @@ class Swipper extends Component {
 
 }
 
-export default PageWrapper;
+export default Swiper;
