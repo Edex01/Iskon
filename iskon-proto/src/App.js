@@ -4,10 +4,10 @@ import './App.css';
 
 //Importing pages
 import PageWrapper from './Components/PageWrapper.js';
-import Home from './Components/Pages/Home.js';
-import About from './Components/Pages/About.js';
-import Contact from './Components/Pages/Contact.js';
-import JoinUs from './Components/Pages/JoinUs.js';
+//import Home from './Components/Pages/Home.js';
+//import About from './Components/Pages/About.js';
+//import Contact from './Components/Pages/Contact.js';
+//import JoinUs from './Components/Pages/JoinUs.js';
 
 
 class App extends Component{
@@ -16,8 +16,7 @@ class App extends Component{
     return (
       <Router>
         <PageWrapper>
-        
-        <Route
+       {/* <Route
         exact ={true}
         path = "/"
         component = {Home}
@@ -39,7 +38,8 @@ class App extends Component{
         exact ={true}
         path = "/JoinUs"
         component = {JoinUs}
-        />
+        />*/} 
+        
         
         </PageWrapper>
       </Router>
