@@ -2,30 +2,19 @@
 import React, { Component } from "react";
 import "./JoinUs.css";
 
+
 class JoinUs extends Component {
   render() {
 
 
     return (
-      <div>
+      <div className="container-fluid">
         <h1>Let's Fight Depression Together</h1>
         
-        <form action="">
+        <form>
           {/* FIRST NAME FIELD */}
 
-          <div className="row">
-            <div className="col-25">
-              <label htmlFor="fname">First Name</label>
-            </div>
-            <div className="col-75">
-              <input
-                type="text"
-                id="fname"
-                name="firstname"
-                placeholder="Your name.."
-              />
-            </div>
-          </div>
+          .form-group
 
           {/* LAST NAME FIELD */}
 
@@ -109,6 +98,7 @@ class JoinUs extends Component {
                 name="lastname"
                 placeholder="Cause is.."
               />
+              
             </div>
           </div>
        
