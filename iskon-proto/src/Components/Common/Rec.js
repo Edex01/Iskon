@@ -29,11 +29,7 @@ class Contacts extends Component {
 
                     <div id="Book">
                         <img src={Ranveer} alt="Avatar" width="150" height="150" />
-                        <h4><b>PODCAST:</b> Think And Grow Rich has earned itself the reputation <br/>of being considered a textbook for actionable techniques <br/>that can help one get better at doing anything, <br/>not just by rich and wealthy, but also by people<br/> doing wonderful work in their respective fields. </h4>
-                        <div className="row">
-                            <button id= "amazon"><a href="false" target="_blank" rel="noopener noreferrer"><img src="https://www.niftybuttons.com/amazon/amazon-button2.png" /></a></button>
-                            
-                        </div>
+                        <h4><b>PODCAST:</b>This Rajkumar Rao latest interview,<br /> he talks about his journey through Bollywood . <br />In this Bollywood interview, Rajkummar Rao <br />talks about Rajkummar Rao latest movie - Made In China.</h4>
                     </div>
 
                     <div id="Book">

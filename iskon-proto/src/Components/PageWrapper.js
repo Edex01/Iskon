@@ -14,7 +14,7 @@ class PageWrapper extends Component {
       <div>
         <div className="topnav" id="myTopnav">
           <Link to="/" className="active">
-            Iskon
+           Together HEAL
           </Link>
           {/* In reverse order*/}
           <Link to="/JoinUs">Join Us!</Link>
