@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import './slickdemo.css';
+import "./slickdemo.css";
 
 import new1 from "./new1.jpg";
 import new2 from "./new2.jpg";
@@ -15,7 +15,7 @@ export class SlickDemo extends Component {
       speed: 500,
       centerMode: true,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
     };
     return (
       <div>
@@ -26,25 +26,24 @@ export class SlickDemo extends Component {
             </div>        
             </div>    
             </div>   */}
-        <Slider {...settings} >
+        <Slider {...settings}>
           <div className="wdt">
-            <img className="img" src={new1} className="img" />
-
+            <img className="img" src={new1} className="img" alt="" />
           </div>
           <div className="wdt">
-            <img style={{ "height": "40px" }} src={new2} className="img" />
+            <img style={{ height: "40px" }} src={new2} className="img" alt="" />
           </div>
           <div className="wdt">
-            <img className="img" src={'assets/w2.jpg'} className="img" />
+            <img className="img" src={"assets/w2.jpg"} className="img" alt="" />
           </div>
           <div className="wdt">
-            <img className="img" src={'assets/w2.jpg'} className="img" />
-          </div >
-          <div className="wdt">
-            <img className="img" src={'assets/w2.jpg'} className="img" />
+            <img className="img" src={"assets/w2.jpg"} className="img" alt="" />
           </div>
           <div className="wdt">
-            <img className="img" src={'assets/w2.jpg'} className="img" />
+            <img className="img" src={"assets/w2.jpg"} className="img" alt="" />
+          </div>
+          <div className="wdt">
+            <img className="img" src={"assets/w2.jpg"} className="img" alt="" />
           </div>
         </Slider>
       </div>
@@ -52,4 +51,4 @@ export class SlickDemo extends Component {
   }
 }
 
-export default SlickDemo  
+export default SlickDemo;
