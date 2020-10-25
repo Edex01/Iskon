@@ -26,3 +26,12 @@
     float: right;
     padding: 40px;
   }
+
+  #amazon {
+    padding: 3px;
+    text-decoration: none;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    border: none;
+}

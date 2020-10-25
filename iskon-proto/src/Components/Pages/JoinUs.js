@@ -97,6 +97,20 @@ class JoinUs extends Component {
         <label for="No">No, I can't</label><br/>
   
     </div>
+
+    <div className="row">
+            <div className="col-25">
+              <label htmlFor="lname"> What you consider as reason for your stage?</label>
+            </div>
+            <div className="col-75">
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Cause is.."
+              />
+            </div>
+          </div>
        
           {/* SUBMIT BUTTON */}
 
